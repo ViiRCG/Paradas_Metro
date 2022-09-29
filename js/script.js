@@ -37,9 +37,6 @@ const mostrar=()=>{
 }
 
 
-
-
-
 img1.addEventListener("click", mostrar);
 
 
