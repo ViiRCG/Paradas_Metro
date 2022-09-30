@@ -15,7 +15,7 @@ let img8 = document.getElementById("img8")
 
 /*Tengo que indicar la ruta de las imagenes para que sepa donde encontrarlo. Por eso ponemos "imagenes/" justo antes. Si esa carpeta de imagenes estuviera dentro de una carpeta assets, pondríamos "assets/imagenes/" */
 
-//let main=document.getElementById("main");
+// let main=document.getElementById("main");
 
 let info = document.getElementById("info");
 
@@ -62,3 +62,10 @@ img8.addEventListener("click", () => mostrar(img8));
 
 /** con una función de flecha metemos el código de la función, por lo que no se va a ejecutar hasta que se produzca el evento click*/
 
+//Con event en función de flecha:
+
+// main.addEventListener("click", (event)=>{
+//     if(event.target.tagName =="IMG"){
+//         mostrar(event.target)
+//     }
+// })
